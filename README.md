@@ -72,21 +72,25 @@ sudo apt update && sudo apt install linux-libc-dev
 
 1. Clone the repository:-
 BASH :
+```text
 git clone <PASTE_YOUR_GITHUB_REPO_URL_HERE>
 cd <YOUR_REPO_FOLDER_NAME>
-
+```
 2. Grant execution permissions to all scripts:-
 BASH:
+```text
 chmod +x script*.sh
+```
 
 3. Run the scripts:-
 BASH:
+```text
 ./script1.sh
 ./script2.sh
 ./script3.sh
 sudo ./script4.sh  # Requires sudo for log access
 ./script5.sh
-
+```
 
 
 
