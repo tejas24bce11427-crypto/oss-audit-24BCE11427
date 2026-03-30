@@ -37,23 +37,23 @@ The project is divided equally into two sections:
 ```
 ### The Shell Script Deep-Dive demonstration consists of five Bash shell scripts which show essential command-line system management functions along with automated tasks and system security checks on Debian/Ubuntu operating systems.
 
- Script 1: System Identity Report (script1.sh) The system identity report script functions as a welcome display which automatically retrieves and presents essential system details about the operating system distribution and kernel version and active user and system uptime.
+### Script 1: System Identity Report (script1.sh) The system identity report script functions as a welcome display which automatically retrieves and presents essential system details about the operating system distribution and kernel version and active user and system uptime.
 
 Key Shell Concepts Used: The system uses variables and command substitution through the syntax $() and echo command output and system commands which include uname -r and whoami and uptime and date for its operation.
 
-Script 2: FOSS Package Inspector (script2.sh) The system package management tool checks for present Linux Kernel header files through the core Linux Kernel header package linux-libc-dev and provides their version and architecture details together with a philosophical overview of the system.
+### Script 2: FOSS Package Inspector (script2.sh) The system package management tool checks for present Linux Kernel header files through the core Linux Kernel header package linux-libc-dev and provides their version and architecture details together with a philosophical overview of the system.
 
 Key Shell Concepts Used: The system implements if-then-else conditionals and case statements for logic branching and package management querying through dpkg -s and output piping through grep.
 
-Script 3: Disk and Permission Auditor (script3.sh) The system audits essential system directories which include /etc and /var/log and /boot to determine their complete disk space consumption and file ownership and file access rights.
+### Script 3: Disk and Permission Auditor (script3.sh) The system audits essential system directories which include /etc and /var/log and /boot to determine their complete disk space consumption and file ownership and file access rights.
 
 Key Shell Concepts Used: The system processes arrays through array iteration and for loops while checking directory existence with the -d parameter and performing advanced text processing through awk and cut.
 
-Script 4: Log File Analyzer (script4.sh) The system examines its primary log file /var/log/syslog by reading each line to count how many times a particular keyword appears with the default keyword being warning while showing the five latest matches.
+### Script 4: Log File Analyzer (script4.sh) The system examines its primary log file /var/log/syslog by reading each line to count how many times a particular keyword appears with the default keyword being warning while showing the five latest matches.
 
 Key Shell Concepts Used: The system uses while-read loops to process data and matches patterns through conditional grep matching while it uses mathematical counter variables through $((COUNT + 1)) and command-line arguments through $1 and $2 and tail.
 
-Script 5: Open Source Manifesto Generator (script5.sh) The script provides an interactive interface which asks users to respond to questions.
+### Script 5: Open Source Manifesto Generator (script5.sh) The script provides an interactive interface which asks users to respond to questions.
 
 ###  Environment & Dependencies
 ->These scripts were written, tested, and verified in the following environment:
